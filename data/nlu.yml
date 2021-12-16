@@ -1,0 +1,116 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey!
+    - Hallo
+    - Good day
+    - Good morning
+    - Hello
+    - Good afternoon
+    - Hola
+    - Good evening
+    - Bye
+    - Hey
+    - Hai
+    - Ciao
+    - Hello there
+    - Hii
+    - Morning!
+    - Nice day
+    - Evening!
+    - Helloo
+    - Hey there
+    - Noon!
+   
+    
+
+- intent: event_details
+  examples: |
+    - What are the events happening on campus today?
+    - Tell me about campus events?
+    - Are there campus events today?
+    - Are there any events this week?
+    - What are the events happening in this week?
+    - Tell me about the events this weekend
+    - Are there any events happening today?
+    - What are the events happening on campus tomorrow?
+    - Are there any events tomorrow?
+    - Are there any events tonight?
+    - Tell me about campus events happening tomorrow?
+    - What are the events tonight?
+    - Are there any events happening events happening tomorrow?
+    - Tell me about the events happening this week
+    - Tell me about the events happening on campus
+    - What are the campus events happeening on campus tonight?
+    - Tell me about the events happening this weekend
+    - Tell me about the events hapenning next week
+    - Are there any events next week?
+    - What are events happening on campus next week?
+    - Tell me about campus events happening next week?
+    - Tell me about campus events happening tomorrow?
+
+- intent: event_specific
+  examples: |
+    - Is there an event by [Kappa Kappa Delta]{"entity": "org_name"}?
+    - What are the events hosted by [Chi Sigma Delta]{"entity": "org_name"}?
+    - List the events by [Art Club]{"entity": "org_name"}
+    - List the events by [APASC]{"entity": "org_name"}
+    - Are there any events by [APAW]{"entity": "org_name"}
+    - Is there any event happening [tomorrow]{"entity": "datetime"}?
+    - Is there an event by [Cougar Safe Rides]{"entity": "org_name"}?
+    - What are the events hosted by [CVM Nutrition Club]{"entity": "org_name"}?
+    - List the events by [Dairy Club]{"entity": "org_name"} happening [next week]{"entity": "datetime"}
+     - Is there an event by [Delta Tau Delta]{"entity": "org_name"}?
+    - What are the events hosted by [Delta Tau Delta]{"entity": "org_name"}?
+    - List the events by [FarmHouse Fraternity]{"entity": "org_name"}
+    - List the events by [Division of Student Affairs]{"entity": "org_name"}
+    - Are there any events by [Division of Student Affairs]{"entity": "org_name"}
+    - Is there any event happening [tomorrow]{"entity": "datetime"}?
+    - List the events [today]{"entity": "datetime"}
+    - Is there an event by [Delta Tau Delta]{"entity": "org_name"} happening [this week]{"entity": "datetime"}?
+    - What are the events hosted by [Delta Tau Delta]{"entity": "org_name"}?
+    - List the events by [French Club]{"entity": "org_name"}
+    - List the events by [Fashion Club]{"entity": "org_name"}
+    - Are there any events by [Fashion Club]{"entity": "org_name"}
+    - Are there any events happening [tomorrow]{"entity": "datetime"}?
+    - List the events [tonight]{"entity": "datetime"}
+    - Is there an event by [Gamma Phi Beta]{"entity": "org_name"}?
+    - What are the events hosted by [Gamma Phi Beta]{"entity": "org_name"}?
+    - List the events by [Girls Who Code College Loops]{"entity": "org_name"}
+    - List the events by [Girls Who Code College Loops]{"entity": "org_name"}
+    - Are there any events by [French Club]{"entity": "org_name"}
+    - List the events happening [tomorrow]{"entity": "datetime"}?
+    - Are there any events happening [today]{"entity": "datetime"}
+    - Are there any events happening [next week]{"entity": "datetime"}?
+    - List the events [tonight]{"entity": "datetime"}
+    - Is there an event by [Graduate Society of Women Engineers]{"entity": "org_name"}?
+    - What are the events hosted by [Greek Standards Board]{"entity": "org_name"}?
+    - List the events by [Graduate Society of Women Engineers]{"entity": "org_name"}
+    - List the events by [Girls Who Code College Loops]{"entity": "org_name"}
+    - Are there any events by [Greek Standards Board]{"entity": "org_name"}
+    - List the events happening [tomorrow]{"entity": "datetime"}?
+    - Are there any events happening [tonight]{"entity": "datetime"}
+    - Is there an event by [Ham Radio Club]{"entity": "org_name"}?
+    - What are the events hosted by [Graduate Society of Women Engineers]{"entity": "org_name"}?
+    - List the events by [Ham Radio Club]{"entity": "org_name"}
+    - List the events by [Hills Church]{"entity": "org_name"}
+    - Are there any events by [Ham Radio Club]{"entity": "org_name"}
+    - Is there any event [tomorrow]{"entity": "datetime"}?
+    - Is there an event by [Hills Church]{"entity": "org_name"}?
+    - Is there an event by [Horticulture Club at WSU]{"entity": "org_name"}?
+    - What are the events hosted by [Graduate Society of Women Engineers]{"entity": "org_name"}?
+    - List the events by [Horticulture Club at WSU]{"entity": "org_name"}
+    - List the events by [Human Animal Bond Club]{"entity": "org_name"}
+    - Are there any events by [Human Animal Bond Club]{"entity": "org_name"}
+    - Is there an event by [International Student Council]{"entity": "org_name"} [today]{"entity": "org_name"}?
+    - Are there any events by [International Student Council]{"entity": "org_name"}
+    
+    
+    
+    
+    
+    
+    
+
+    

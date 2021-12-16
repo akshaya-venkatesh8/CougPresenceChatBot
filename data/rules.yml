@@ -1,0 +1,13 @@
+ - rule: activate event form
+   steps:
+   - intent: event_specific
+   - action: event_form
+   - active_loop: event_form
+
+ - rule: submit form org
+   condition:
+   - active_loop: event_form
+   steps:
+   - action: event_form
+   - active_loop: null
+   - action: action_event_specific

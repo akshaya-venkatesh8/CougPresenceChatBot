@@ -1,0 +1,61 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- event_details
+- event_datetime
+- event_org
+- greet
+- goodbye
+- fallback
+
+entities:
+- org_name
+- datetime
+
+slots:
+  org_name:
+    type: text
+    influence_conversation: false
+    mappings: []
+  datetime:
+    type: text
+    influence_conversation: false
+    mappings: []
+responses:
+   utter_greet:
+       - text: |
+           Hello! 
+           Hi!
+   utter_ask_itention:
+       - text: |
+           What can I help you with today?
+           How can I help you?
+           What can I do for you today?
+   utter_fallback:
+       - text: |
+           I am not equipped to answer that at the moment.
+           I'm sorry. I don't understand that at the moment. 
+   utter_loader_text:
+       - text: |
+           Hi, I am Coug Presence Bot! Let me find that information for you!
+   utter_goodbye:
+       - text: |
+           Bye! Have a nice day!
+           Bye bye!
+actions:
+- utter_fallback
+- utter_greet
+- utter_ask_itention
+- utter_loader_text
+- action_event_specific
+- action_event_details
+
+forms:
+  event_form:
+    required_slots:
+    - event_name
+  event_org_form:
+    required_slots:
+    - event_organisation

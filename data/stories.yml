@@ -1,0 +1,26 @@
+stories:
+ - story: get_events
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - action: utter_ask_intention
+   - intent: event_details
+   - action: utter_loader_text
+   - action: action_event_details
+ - story: get_specific_events
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - action: utter_ask_intention
+   - intent: event_specific
+   - action: utter_loader_text
+   - action: action_event_details
+ - story: goodbye
+   steps:
+   - intent: goodbye
+   - action: utter_goodbye
+ - story: fallback
+   steps:
+   - intent: fallback
+   - action: utter_fallback
+   

@@ -1,0 +1,21 @@
+slots:
+  event_datetime:
+    type: text
+    mappings:
+    - type: text
+      conditions:
+      - active_loop: event_form
+        requested_slot: event_datetime
+  event_organisation:
+    type: text
+    mappings:
+    - type: text
+      conditions:
+      - active_loop: event_form
+        requested_slot: event_organisation
+forms:
+  event_form:
+    required_slots:
+    - event_datetime
+    - event_organisation
+    
